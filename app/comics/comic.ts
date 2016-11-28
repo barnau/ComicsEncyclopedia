@@ -1,0 +1,31 @@
+export interface IComic {
+    id: number;
+    digitalId: number;
+    title: string;
+    issueNumber: number;
+    variantDescription: string;
+    description: null;
+    modified: Date;
+    isbn: string;
+    upc: string;
+    diamondCode: string;
+    ean: string;
+    issn: string;
+    format: string;
+    pageCount: number;
+    textObjects: Array<Object>;
+    resourceURI: string;
+    urls: Array<Object>;
+    series: Object;
+    variants: Array<any>;
+    collections: Array<any>;
+    collectedIssues: Array<any>;
+    dates: Array<Object>;
+    prices: Array<Object>;
+    thumbnail: Object;
+    images: Object;
+    creators: Object;
+    characters: Object;
+    stories: Object;
+    events: Object;
+}

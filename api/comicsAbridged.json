@@ -1,0 +1,712 @@
+[
+    {
+  "code": 200,
+  "status": "Ok",
+  "copyright": "© 2016 MARVEL",
+  "attributionText": "Data provided by Marvel. © 2016 MARVEL",
+  "attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2016 MARVEL</a>",
+  "etag": "43a96d3944f4480ccb0c4f2a767006e532e90daa",
+  "data": {
+    "offset": 0,
+    "limit": 20,
+    "total": 38475,
+    "count": 20,
+    "results": [
+      {
+        "id": 42882,
+        "digitalId": 26110,
+        "title": "Lorna the Jungle Girl (1954) #6",
+        "issueNumber": 6,
+        "variantDescription": "",
+        "description": null,
+        "modified": "2015-10-15T11:13:52-0400",
+        "isbn": "",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/42882",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/42882/lorna_the_jungle_girl_1954_6?utm_campaign=apiRef&utm_source=17cfa7fa545ce17977e2cb95c5e97042"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=26110&utm_campaign=apiRef&utm_source=17cfa7fa545ce17977e2cb95c5e97042"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/16355",
+          "name": "Lorna the Jungle Girl (1954 - 1957)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2054-03-01T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "-0001-11-30T00:00:00-0500"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2012-04-13T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 0
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/40/50b4fc783d30f",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/40/50b4fc783d30f",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/42882/creators",
+          "items": [],
+          "returned": 0
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/42882/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/42882/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/106292",
+              "name": "cover from Lorna the Jungle Girl #6",
+              "type": "cover"
+            }
+          ],
+          "returned": 1
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/42882/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 43092,
+        "digitalId": 0,
+        "title": "Brilliant (2011) #7",
+        "issueNumber": 7,
+        "variantDescription": "",
+        "description": "From the award-winning creators behind ULTIMATE SPIDER-MAN and AVENGERS ASSEMBLE comes the shocking creator-owned series that gives you something very different than a regular superhero comic and asks the question: How would the world react if a group of brilliant college students actually discovered the secret of superpowers? Well now, the secret is out!",
+        "modified": "2016-05-16T09:04:21-0400",
+        "isbn": "",
+        "upc": "75960607683300711",
+        "diamondCode": "JUN120706",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 40,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "From the award-winning creators behind ULTIMATE SPIDER-MAN and AVENGERS ASSEMBLE comes the shocking creator-owned series that gives you something very different than a regular superhero comic and asks the question: How would the world react if a group of brilliant college students actually discovered the secret of superpowers? Well now, the secret is out!"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/43092",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/43092/brilliant_2011_7?utm_campaign=apiRef&utm_source=17cfa7fa545ce17977e2cb95c5e97042"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/14803",
+          "name": "Brilliant (2011 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2020-12-31T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "2020-12-17T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.95
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/80/4fb2a4aa018c6",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/80/4fb2a4aa018c6",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/43092/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+              "name": "Jeff Youngquist",
+              "role": "editor"
+            }
+          ],
+          "returned": 1
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/43092/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/43092/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/96761",
+              "name": "Cover #96761",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/96762",
+              "name": "Interior #96762",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/43092/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 41530,
+        "digitalId": 0,
+        "title": "Ant-Man: So (Trade Paperback)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": "It's the origin of the original Avenger, Ant-Man! Hank Pym has been known by a variety of names - including Ant-Man, Giant-Man, Goliath and Yellowjacket - he's been an innovative scientist, a famed super hero, an abusive spouse and more. What demons drive a man like Hank Pym? And how did he begin his heroic career? ",
+        "modified": "2012-09-25T18:05:58-0400",
+        "isbn": "978-0-7851-6390-9",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "9780785 163909 51999",
+        "issn": "",
+        "format": "Trade Paperback",
+        "pageCount": 136,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "It's the origin of the original Avenger, Ant-Man! Hank Pym has been known by a variety of names - including Ant-Man, Giant-Man, Goliath and Yellowjacket - he's been an innovative scientist, a famed super hero, an abusive spouse and more. What demons drive a man like Hank Pym? And how did he begin his heroic career? "
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/41530",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/collection/41530/ant-man_so_trade_paperback?utm_campaign=apiRef&utm_source=17cfa7fa545ce17977e2cb95c5e97042"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Ant-Man-So-0/digital-comic/27157?utm_campaign=apiRef&utm_source=17cfa7fa545ce17977e2cb95c5e97042"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/15481",
+          "name": "Ant-Man: So (2011 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2020-12-31T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "2020-12-16T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 19.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/30/4fe8cb51f32e0",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/30/4fe8cb51f32e0",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/41530/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+              "name": "Jeff Youngquist",
+              "role": "editor"
+            }
+          ],
+          "returned": 1
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/41530/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/41530/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/93946",
+              "name": "Cover #93946",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/93947",
+              "name": "Interior #93947",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/41530/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 58530,
+        "digitalId": 0,
+        "title": "Miracleman by Gaiman & Buckingham: The Silver Age (2016) #2",
+        "issueNumber": 2,
+        "variantDescription": "",
+        "description": "Miracleman has his old friend back, but Young Miracleman has never felt more alone. Where can a hero from a simpler time call home in this brave new world? The tensions building underneath Miracleman and Young Miracleman’s relationship explode in “When Titans Clash!” Remastered with stunning new artwork by Mark Buckingham! Including material originally presented in MIRACLEMAN (1985) #24, plus bonus content.",
+        "modified": "2016-09-26T17:41:50-0400",
+        "isbn": "",
+        "upc": "75960608469200211",
+        "diamondCode": "JAN160912",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 48,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "Miracleman has his old friend back, but Young Miracleman has never felt more alone. Where can a hero from a simpler time call home in this brave new world? The tensions building underneath Miracleman and Young Miracleman’s relationship explode in “When Titans Clash!” Remastered with stunning new artwork by Mark Buckingham! Including material originally presented in MIRACLEMAN (1985) #24, plus bonus content."
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/58530",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/58530/miracleman_by_gaiman_buckingham_the_silver_age_2016_2?utm_campaign=apiRef&utm_source=17cfa7fa545ce17977e2cb95c5e97042"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/21367",
+          "name": "Miracleman by Gaiman & Buckingham: The Silver Age (2016 - Present)"
+        },
+        "variants": [
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/58531",
+            "name": "Miracleman by Gaiman & Buckingham: The Silver Age (2016) #2 (Dodson Variant)"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/58532",
+            "name": "Miracleman by Gaiman & Buckingham: The Silver Age (2016) #2 (Shalvey Variant)"
+          }
+        ],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2017-02-22T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "2017-02-07T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 4.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/a0/56e6d107692cc",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/a0/56e6d107692cc",
+            "extension": "jpg"
+          },
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/1/80/56956c5933f29",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/58530/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+              "name": "Jeff Youngquist",
+              "role": "editor"
+            }
+          ],
+          "returned": 1
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/58530/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/58530/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/127659",
+              "name": "cover from Miracleman by Gaiman & Buckingham: The Silver Age (2016) #2",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/127660",
+              "name": "story from Miracleman by Gaiman & Buckingham: The Silver Age (2016) #2",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/58530/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 59843,
+        "digitalId": 0,
+        "title": "Star Wars: Darth Vader Vol. 2 (Hardcover)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": "Vader’s down — but not out! When a rebel encounter sends the Sith Lord crashing onto a nearby planet, two of the biggest titles in comics collide in the first crossover of the new Marvel age of Star Wars! Will the heroes of the Alliance seize this opportunity to put an end to one of their greatest enemies — or will they be made to feel the full power of the dark side? Darth Vader has been secretly pursuing his own agenda, but now the time has come for the end of games. He will either find favor in the eyes of the Emperor, or his schemes will prove his undoing! The imperial march of Darth Vader hits in full stride! Collecting STAR WARS: VADER DOWN #1, STAR WARS (2015) #13-14, and DARTH VADER #13-25 and ANNUAL #1.",
+        "modified": "2016-08-02T12:22:22-0400",
+        "isbn": "978-1-302-90220-9",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "9781302 902209 53999",
+        "issn": "",
+        "format": "Hardcover",
+        "pageCount": 432,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "Vader’s down — but not out! When a rebel encounter sends the Sith Lord crashing onto a nearby planet, two of the biggest titles in comics collide in the first crossover of the new Marvel age of Star Wars! Will the heroes of the Alliance seize this opportunity to put an end to one of their greatest enemies — or will they be made to feel the full power of the dark side? Darth Vader has been secretly pursuing his own agenda, but now the time has come for the end of games. He will either find favor in the eyes of the Emperor, or his schemes will prove his undoing! The imperial march of Darth Vader hits in full stride! Collecting STAR WARS: VADER DOWN #1, STAR WARS (2015) #13-14, and DARTH VADER #13-25 and ANNUAL #1."
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/59843",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/collection/59843/star_wars_darth_vader_vol_2_hardcover?utm_campaign=apiRef&utm_source=17cfa7fa545ce17977e2cb95c5e97042"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/21813",
+          "name": "Star Wars: Darth Vader Vol. 2 (2016)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2017-02-08T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "2016-12-20T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 39.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/d0/57a0c975a2938",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/d0/57a0c975a2938",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 7,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/59843/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11463",
+              "name": "Jason Aaron",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8901",
+              "name": "Kieron Gillen",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/191",
+              "name": "Kaare Andrews",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12905",
+              "name": "MIKE DEODATO Jr.",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11757",
+              "name": "Salvador Larroca",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/758",
+              "name": "Leinil Francis Yu",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+              "name": "Jeff Youngquist",
+              "role": "editor"
+            }
+          ],
+          "returned": 7
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/59843/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/59843/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/130194",
+              "name": "cover from Star Wars: Darth Vader (2016)",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/130195",
+              "name": "story from Star Wars: Darth Vader (2016)",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/59843/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 60705,
+        "digitalId": 0,
+        "title": "Marvel Masterworks: The Uncanny X-Men Vol. 10 HC - Variant Edition Vol. 241 (Hardcover)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": "John Romita Jr. joins Chris Claremont as the Uncanny X-Men’s chart-topping adventures continue! Drama abounds as Cyclops heads off on his honeymoon with Madelyne Pryor, Wolverine’s relationship with Mariko takes a turn for the worse and Kitty Pryde is kidnapped and forced to marry the Morlock Caliban. Meanwhile, Rogue is Public Enemy No. 1, and anti-mutant sentiment threatens the passage of a law that will strip all mutants in the United States of their rights. There’s no shortage of action, either: Colossus battles Juggernaut, Mystique and the Brotherhood of Evil Mutants return and Rachel Summers arrives on the scene! Topped off by Claremont and Barry Windsor-Smith’s stunning classic story “Lifedeath” and the Magik limited series, there’s no shortage of mutant masterworks! Collecting UNCANNY X-MEN (1981) #176-188, MAGIK (1983) #1-4 and material from MARVEL FANFARE (1982) #40.",
+        "modified": "2016-08-02T12:15:45-0400",
+        "isbn": "978-1-302-90461-6",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "9781302 904616 59999",
+        "issn": "",
+        "format": "Hardcover",
+        "pageCount": 456,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "John Romita Jr. joins Chris Claremont as the Uncanny X-Men’s chart-topping adventures continue! Drama abounds as Cyclops heads off on his honeymoon with Madelyne Pryor, Wolverine’s relationship with Mariko takes a turn for the worse and Kitty Pryde is kidnapped and forced to marry the Morlock Caliban. Meanwhile, Rogue is Public Enemy No. 1, and anti-mutant sentiment threatens the passage of a law that will strip all mutants in the United States of their rights. There’s no shortage of action, either: Colossus battles Juggernaut, Mystique and the Brotherhood of Evil Mutants return and Rachel Summers arrives on the scene! Topped off by Claremont and Barry Windsor-Smith’s stunning classic story “Lifedeath” and the Magik limited series, there’s no shortage of mutant masterworks! Collecting UNCANNY X-MEN (1981) #176-188, MAGIK (1983) #1-4 and material from MARVEL FANFARE (1982) #40."
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/60705",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/collection/60705/marvel_masterworks_the_uncanny_x-men_vol_10_hc_-_variant_edition_vol_241_hardcover?utm_campaign=apiRef&utm_source=17cfa7fa545ce17977e2cb95c5e97042"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/22434",
+          "name": "Marvel Masterworks: The Uncanny X-Men Vol. 10 HC - Variant Edition Vol. 241 (2017 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2017-02-08T00:00:00-0500"
+          },
+          {
+            "type": "focDate",
+            "date": "2016-12-20T00:00:00-0500"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 100
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/8/e0/57a0c8312ec1f",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/8/e0/57a0c8312ec1f",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 8,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/60705/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1612",
+              "name": "John Buscema",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/105",
+              "name": "Sal Buscema",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/5764",
+              "name": "Ron Frenz",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/6598",
+              "name": "Craig Hamilton",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11419",
+              "name": "Barry Windsor-Smith",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/44",
+              "name": "Chris Claremont",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/214",
+              "name": "John Romita JR.",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+              "name": "Jeff Youngquist",
+              "role": "editor"
+            }
+          ],
+          "returned": 8
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/60705/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/60705/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/131879",
+              "name": "cover from Marvel Masterworks: The Uncanny X-Men (2017)",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/131880",
+              "name": "story from Marvel Masterworks: The Uncanny X-Men (2017)",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/60705/events",
+          "items": [],
+          "returned": 0
+        }
+      }
+    ]
