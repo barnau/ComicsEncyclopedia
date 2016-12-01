@@ -19,6 +19,8 @@ var ComicService = (function () {
         this._http = _http;
         this._allComicsUrl = 'https://gateway.marvel.com:443/v1/public/comics?apikey=17cfa7fa545ce17977e2cb95c5e97042';
         this._allCharactersUrl = 'https://gateway.marvel.com:443/v1/public/characters?apikey=17cfa7fa545ce17977e2cb95c5e97042&nameStartsWith=';
+        this._characterPrefixurl = 'https://gateway.marvel.com:443/v1/public/characters/';
+        this._apiKey = '?apikey=17cfa7fa545ce17977e2cb95c5e97042';
     }
     ComicService.prototype.getComics = function () {
         return this._http.get(this._allComicsUrl)
@@ -30,6 +32,12 @@ var ComicService = (function () {
         return this._http.get(this._allCharactersUrl + name)
             .map(function (response) { return response.json(); })
             .do(function (data) { return console.log('All Characters' + JSON.stringify(data)); })
+            .catch(this.handleError);
+    };
+    ComicService.prototype.getCharacterById = function (id) {
+        return this._http.get(this._characterPrefixurl + id + this._apiKey)
+            .map(function (response) { return response.json(); })
+            .do(function (data) { return console.log("Character returned: ", JSON.stringify(data)); })
             .catch(this.handleError);
     };
     ComicService.prototype.handleError = function (error) {

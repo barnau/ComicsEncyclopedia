@@ -1,5 +1,5 @@
-<div class="row search-box">
-  <div class="col-lg-6">
+<div class="row search-box affix" data-spy="affix" data-offset-top="50">
+  <div class="col-lg-11">
     <div class="input-group ">
       <span class="input-group-btn">
         <button class="btn btn-default" type="button"
@@ -14,36 +14,15 @@
   </div><!-- /.col-lg-6 -->
 </div>
 
-<!--<div class="row">
-    <div class="col-md-3">
-        <div class="panel panel-primary" >
-            <div class="panel-heading">
-                Spider Girl
-            </div>
-            <div class="panel-body">
-                <img src="http://i.annihil.us/u/prod/marvel/i/mg/a/10/528d369de3e4f/portrait_xlarge.jpg" width="200px"/>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-3">
-        <div class="panel panel-primary" >
-            <div class="panel-heading">
-                Spider Girl
-            </div>
-            <div class="panel-body">
-                <img src="http://i.annihil.us/u/prod/marvel/i/mg/a/10/528d369de3e4f/portrait_xlarge.jpg" width="200px"/>
-            </div>
-        </div>
-    </div>
-</div>-->
 
 
 
-<div class="row" *ngIf="matchingCharacters && matchingCharacters.length">
+
+<div class="row hero-pool" *ngIf="matchingCharacters && matchingCharacters.length" >
     <div class="col-md-3" *ngFor="let character of matchingCharacters">
         <div class="panel panel-primary hero-card">
             <div class="panel-heading">
-                {{character.name}}
+               <a [routerLink]="['/comicDetails', character.id]" > {{character.name}}</a>
             </div>
             <div class="panel-body ">
                 <img [src]="character.thumbnail.path + '/portrait_xlarge.' + character.thumbnail.extension" />

@@ -9,12 +9,12 @@ import { ComicService } from './comic.service'
 
 @Component({
     moduleId: module.id,
-    // selector: 'my-comic',
+    styleUrls: ['./comic.component.css'],
     templateUrl: './comic.component.html'
 })
 export class ComicComponent  {
    
-    comics: Object[];
+   
     matchingCharacterResponse: IApiResponse;
     errorMessage: string;
     matchingCharacters: ICharacterResult[];

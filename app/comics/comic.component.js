@@ -25,7 +25,7 @@ var ComicComponent = (function () {
     ComicComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
-            // selector: 'my-comic',
+            styleUrls: ['./comic.component.css'],
             templateUrl: './comic.component.html'
         }), 
         __metadata('design:paramtypes', [comic_service_1.ComicService])

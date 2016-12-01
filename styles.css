@@ -11,7 +11,8 @@ h2, h3 {
 }
 
 body {
-  margin-top: 70px !important;
+  
+  background: url(./app/img/background.jpg) no-repeat center center fixed; 
 }
 
 .hero-card img {
@@ -22,9 +23,27 @@ body {
 
 .hero-card .panel-heading {
   height: 60px;
+
+}
+
+.hero-card .panel-heading a {
+  height: 60px;
+  color: white;
+  
+}
+a:hover {
+  cursor: pointer;
 }
 
 .search-box {
   padding-bottom: 40px;
+}
+
+.nav {
+  color: #2f3350;
+}
+
+body {
+  margin-top: 75px !important;
 }
 

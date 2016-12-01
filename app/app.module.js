@@ -16,6 +16,7 @@ var comic_component_1 = require('./comics/comic.component');
 var comic_details_component_1 = require('./comic-details/comic-details.component');
 var http_1 = require('@angular/http');
 var router_1 = require('@angular/router');
+var home_component_1 = require('./home/home.component');
 var AppModule = (function () {
     function AppModule() {
     }
@@ -25,16 +26,18 @@ var AppModule = (function () {
                 http_1.HttpModule,
                 forms_1.FormsModule,
                 router_1.RouterModule.forRoot([
+                    { path: 'home', component: home_component_1.HomeComponent },
                     { path: 'comicSearch', component: comic_component_1.ComicComponent },
-                    { path: 'comicDetails', component: comic_details_component_1.ComicDetailsComponent },
-                    { path: '', redirectTo: 'comicSearch', pathMatch: 'full' },
+                    { path: 'comicDetails/:id', component: comic_details_component_1.ComicDetailsComponent },
+                    { path: '', redirectTo: 'home', pathMatch: 'full' },
                     { path: '**', redirectTo: 'comicSearch', pathMatch: 'full' }
                 ], { useHash: true })
             ],
             declarations: [
                 app_component_1.AppComponent,
                 comic_component_1.ComicComponent,
-                comic_details_component_1.ComicDetailsComponent
+                comic_details_component_1.ComicDetailsComponent,
+                home_component_1.HomeComponent
             ],
             bootstrap: [app_component_1.AppComponent]
         }), 
