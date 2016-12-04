@@ -13,6 +13,7 @@ var platform_browser_1 = require('@angular/platform-browser');
 var forms_1 = require('@angular/forms');
 var app_component_1 = require('./app.component');
 var comic_component_1 = require('./comics/comic.component');
+var pagination_component_1 = require('./shared/pagination.component');
 var comic_details_component_1 = require('./comic-details/comic-details.component');
 var http_1 = require('@angular/http');
 var router_1 = require('@angular/router');
@@ -36,6 +37,7 @@ var AppModule = (function () {
             declarations: [
                 app_component_1.AppComponent,
                 comic_component_1.ComicComponent,
+                pagination_component_1.PaginationComponent,
                 comic_details_component_1.ComicDetailsComponent,
                 home_component_1.HomeComponent
             ],

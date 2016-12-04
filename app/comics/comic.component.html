@@ -1,28 +1,28 @@
 <div class="row search-box affix" data-spy="affix" data-offset-top="50">
-  <div class="col-lg-11">
-    <div class="input-group ">
-      <span class="input-group-btn">
+    <div class="col-lg-11">
+        <div class="input-group ">
+            <span class="input-group-btn">
         <button class="btn btn-default" type="button"
                 (click)="getCharacterId(characterName)">
                 Go!
         </button>
       </span>
-      <input type="text" class="form-control" 
-             placeholder="Search by character name..."
-             [(ngModel)]='characterName'>
-    </div><!-- /input-group -->
-  </div><!-- /.col-lg-6 -->
+            <input type="text" class="form-control" placeholder="Search by character name..." [(ngModel)]='characterName'>
+        </div>
+        <!-- /input-group -->
+    </div>
+    <!-- /.col-lg-6 -->
 </div>
 
 
 
 
 
-<div class="row hero-pool" *ngIf="matchingCharacters && matchingCharacters.length" >
+<div class="row hero-pool" *ngIf="matchingCharacters && matchingCharacters.length">
     <div class="col-md-3" *ngFor="let character of matchingCharacters">
         <div class="panel panel-primary hero-card">
             <div class="panel-heading">
-               <a [routerLink]="['/comicDetails', character.id]" > {{character.name}}</a>
+                <a [routerLink]="['/comicDetails', character.id]"> {{character.name}}</a>
             </div>
             <div class="panel-body ">
                 <img [src]="character.thumbnail.path + '/portrait_xlarge.' + character.thumbnail.extension" />
@@ -30,3 +30,6 @@
         </div>
     </div>
 </div>
+
+
+<mv-pagination (pageClicked)="onPageClicked($event)" [total]="totalResultCount"></mv-pagination>

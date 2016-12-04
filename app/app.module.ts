@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms'
 import {AppComponent } from './app.component';
 import { ComicComponent } from './comics/comic.component';
+import { PaginationComponent } from './shared/pagination.component';
 import { ComicDetailsComponent } from './comic-details/comic-details.component';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
@@ -22,6 +23,7 @@ import { HomeComponent } from './home/home.component'
   declarations: [
     AppComponent,
     ComicComponent,
+    PaginationComponent,
     ComicDetailsComponent,
     HomeComponent
     

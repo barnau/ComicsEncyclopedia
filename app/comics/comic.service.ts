@@ -25,14 +25,16 @@ export class ComicService {
         .catch(this.handleError);
     }
 
-    getCharacters(name: string): Observable<IApiResponse> {
-        return this._http.get(this._allCharactersUrl + name)
+    getCharacters(name: string, numResults: number, offset: number): Observable<IApiResponse> {
+        console.log("from get characters in service" , this._allCharactersUrl + name + '&limit=' + numResults + '&offset=' + offset);
+        return this._http.get(this._allCharactersUrl + name + '&limit=' + numResults + '&offset=' + offset)
             .map((response: Response) => <IApiResponse> response.json())
             .do( data => console.log('All Characters' + JSON.stringify(data)))
             .catch(this.handleError);
     }
 
     getCharacterById(id: number): Observable<IApiResponse> {
+        console.log(this._characterPrefixurl + id + this._apiKey);
         return this._http.get(this._characterPrefixurl + id + this._apiKey)
         .map((response: Response)=> <IApiResponse> response.json())
         .do(data => console.log("Character returned: ", JSON.stringify(data)))

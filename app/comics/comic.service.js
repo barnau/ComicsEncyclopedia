@@ -28,13 +28,15 @@ var ComicService = (function () {
             .do(function (data) { return console.log('All comics ' + JSON.stringify(data)); })
             .catch(this.handleError);
     };
-    ComicService.prototype.getCharacters = function (name) {
-        return this._http.get(this._allCharactersUrl + name)
+    ComicService.prototype.getCharacters = function (name, numResults, offset) {
+        console.log("from get characters in service", this._allCharactersUrl + name + '&limit=' + numResults + '&offset=' + offset);
+        return this._http.get(this._allCharactersUrl + name + '&limit=' + numResults + '&offset=' + offset)
             .map(function (response) { return response.json(); })
             .do(function (data) { return console.log('All Characters' + JSON.stringify(data)); })
             .catch(this.handleError);
     };
     ComicService.prototype.getCharacterById = function (id) {
+        console.log(this._characterPrefixurl + id + this._apiKey);
         return this._http.get(this._characterPrefixurl + id + this._apiKey)
             .map(function (response) { return response.json(); })
             .do(function (data) { return console.log("Character returned: ", JSON.stringify(data)); })

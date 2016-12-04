@@ -14,12 +14,22 @@ var ComicComponent = (function () {
     function ComicComponent(_comicService) {
         this._comicService = _comicService;
     }
-    ComicComponent.prototype.getCharacterId = function (characterName) {
+    ComicComponent.prototype.onPageClicked = function (pageInfo, characterName) {
+        console.log(pageInfo);
+        this.currentPage = pageInfo;
+        this.getCharacterId(this.characterName, 8, pageInfo.offset);
+    };
+    ComicComponent.prototype.getCharacterId = function (characterName, numResults, offset) {
         var _this = this;
-        this._comicService.getCharacters(characterName)
+        this.characterName = this.characterName === undefined ? characterName : this.characterName;
+        offset = offset === undefined ? 0 : offset;
+        numResults = numResults === undefined ? 8 : numResults;
+        this._comicService.getCharacters(characterName, numResults, offset)
             .subscribe(function (characters) { return _this.matchingCharacterResponse = characters; }, function (error) { return _this.errorMessage = error; }, function () {
             _this.matchingCharacters = _this.matchingCharacterResponse.data.results;
             console.log(_this.matchingCharacters);
+            _this.totalResultCount = _this.matchingCharacterResponse.data.total;
+            console.log(_this.totalResultCount);
         });
     };
     ComicComponent = __decorate([
