@@ -18,6 +18,7 @@ var comic_details_component_1 = require('./comic-details/comic-details.component
 var http_1 = require('@angular/http');
 var router_1 = require('@angular/router');
 var home_component_1 = require('./home/home.component');
+var books_component_1 = require('./books/books.component');
 var AppModule = (function () {
     function AppModule() {
     }
@@ -39,7 +40,8 @@ var AppModule = (function () {
                 comic_component_1.ComicComponent,
                 pagination_component_1.PaginationComponent,
                 comic_details_component_1.ComicDetailsComponent,
-                home_component_1.HomeComponent
+                home_component_1.HomeComponent,
+                books_component_1.BooksComponent
             ],
             bootstrap: [app_component_1.AppComponent]
         }), 

@@ -18,6 +18,7 @@ class DisplayCharacter {
 export class ComicDetailsComponent implements OnInit {
 
     character: ICharacterResult;
+    characterId: number;
     matchingCharacter: ICharacterResult[];
     matchingCharacterResponse: IApiResponse;
     errorMessage: string;
@@ -26,6 +27,7 @@ export class ComicDetailsComponent implements OnInit {
    
   ngOnInit(): void {
       let id = +this._route.snapshot.params['id'];
+      this.characterId = id;
       this._comicService.getCharacterById(id)
       .subscribe(character => this.character = character.data.results[0], 
                 error => this.errorMessage = <any>error,

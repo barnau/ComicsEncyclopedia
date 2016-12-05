@@ -25,6 +25,7 @@ var ComicDetailsComponent = (function () {
     ComicDetailsComponent.prototype.ngOnInit = function () {
         var _this = this;
         var id = +this._route.snapshot.params['id'];
+        this.characterId = id;
         this._comicService.getCharacterById(id)
             .subscribe(function (character) { return _this.character = character.data.results[0]; }, function (error) { return _this.errorMessage = error; }, function () {
             console.log('Character', _this.character);

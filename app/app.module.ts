@@ -7,7 +7,8 @@ import { PaginationComponent } from './shared/pagination.component';
 import { ComicDetailsComponent } from './comic-details/comic-details.component';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
-import { HomeComponent } from './home/home.component'
+import { HomeComponent } from './home/home.component';
+import { BooksComponent } from './books/books.component';
 @NgModule({
   imports:      [ BrowserModule, 
                   HttpModule,
@@ -25,7 +26,8 @@ import { HomeComponent } from './home/home.component'
     ComicComponent,
     PaginationComponent,
     ComicDetailsComponent,
-    HomeComponent
+    HomeComponent,
+    BooksComponent
     
   ],
   bootstrap:    [AppComponent]
