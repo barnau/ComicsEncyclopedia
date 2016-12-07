@@ -10,6 +10,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var comic_service_1 = require('./comics/comic.service');
+var books_service_1 = require('./books/books.service');
 var AppComponent = (function () {
     function AppComponent() {
     }
@@ -18,7 +19,7 @@ var AppComponent = (function () {
             selector: 'my-app',
             templateUrl: 'app/app.component.html',
             styleUrls: ['app/app.component.css'],
-            providers: [comic_service_1.ComicService]
+            providers: [comic_service_1.ComicService, books_service_1.BooksService]
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);

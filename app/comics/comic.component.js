@@ -21,6 +21,7 @@ var ComicComponent = (function () {
     };
     ComicComponent.prototype.getCharacterId = function (characterName, numResults, offset) {
         var _this = this;
+        this.errorMessage = undefined;
         this.characterName = this.characterName === undefined ? characterName : this.characterName;
         offset = offset === undefined ? 0 : offset;
         numResults = numResults === undefined ? 8 : numResults;
@@ -29,6 +30,9 @@ var ComicComponent = (function () {
             _this.matchingCharacters = _this.matchingCharacterResponse.data.results;
             console.log(_this.matchingCharacters);
             _this.totalResultCount = _this.matchingCharacterResponse.data.total;
+            if (_this.totalResultCount < 1) {
+                _this.errorMessage = 'Sorry, Couldn\'t find any results for "' + _this.characterName + '".';
+            }
             console.log(_this.totalResultCount);
         });
     };

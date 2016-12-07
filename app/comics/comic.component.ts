@@ -22,6 +22,7 @@ export class ComicComponent  {
     characterName: string;
     totalResultCount: number;
     currentPage: IPageInfo;
+    
 
     onPageClicked(pageInfo: IPageInfo, characterName: string) {
         console.log(pageInfo);
@@ -32,6 +33,7 @@ export class ComicComponent  {
     
 
     getCharacterId(characterName: string, numResults: number, offset: number): void {
+        this.errorMessage = undefined;
         this.characterName = this.characterName === undefined ? characterName : this.characterName;
         offset = offset === undefined ? 0 : offset;
         numResults = numResults === undefined ? 8 : numResults;
@@ -43,23 +45,16 @@ export class ComicComponent  {
                             this.matchingCharacters = this.matchingCharacterResponse.data.results
                             console.log(this.matchingCharacters)
                             this.totalResultCount = this.matchingCharacterResponse.data.total;
+                            if(this.totalResultCount < 1) {
+                                this.errorMessage = 'Sorry, Couldn\'t find any results for "' + this.characterName +'".';
+                            }
                             console.log(this.totalResultCount);
                      }
             );
     }
     constructor(private _comicService: ComicService) {}
 
-//     ngOnInit(): void {
-//         // this._comicService.getComics()
-//         //     .subscribe( comics => this.comics = comics,
-//         //                 error => this.errorMessage = <any>error,
-//         //                 () => console.log(this.comics)
-//         //     );
 
-       
-//     }
-
-// @Input() comic1: Comic;
    
    
 

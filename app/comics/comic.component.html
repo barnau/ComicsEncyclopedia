@@ -14,11 +14,23 @@
     <!-- /.col-lg-6 -->
 </div>
 
+<div class="row" *ngIf="errorMessage">
+    <div class="col-md-4 col-md-offset-4">
+        <div class="panel panel-warning top-space">
+            <div class="panel-heading">
+                <h4>Error <span class="glyphicon glyphicon-thumbs-down"></span> </h4>
+            </div>
+            <div class="panel-body">
+                <h4>{{errorMessage}}</h4>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
 
-<div class="row hero-pool" *ngIf="matchingCharacters && matchingCharacters.length">
+<div class="row top-space" *ngIf="matchingCharacters && matchingCharacters.length">
     <div class="col-md-3" *ngFor="let character of matchingCharacters">
         <div class="panel panel-primary hero-card">
             <div class="panel-heading">
@@ -32,4 +44,6 @@
 </div>
 
 
-<mv-pagination (pageClicked)="onPageClicked($event)" [total]="totalResultCount"></mv-pagination>
+
+
+<mv-pagination (pageClicked)="onPageClicked($event)" [total]="totalResultCount" [numPerPage]="8"></mv-pagination>
