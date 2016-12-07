@@ -1,0 +1,13 @@
+.search-box {
+    padding-bottom: 27px;
+}
+
+.affix {
+    top: 52px;
+    position: fixed;
+    z-index: 1000;
+}
+
+.top-space {
+    margin-top: 70px;
+}

@@ -1,0 +1,25 @@
+<div *ngIf="character">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h3>
+                {{character.name}}
+                <div class="mask">
+                    <img [src]="character.thumbnail.path + '/portrait_xlarge.' + character.thumbnail.extension" />
+                </div>
+            </h3>
+
+        </div>
+        <div class="panel-body">
+            <div class="row">
+
+                <div class="well">
+                    <h4>Character Description</h4>
+                    {{character.description}}
+                </div>
+
+                <mv-books [characterId]="characterId"></mv-books>
+
+            </div>
+        </div>
+    </div>
+</div>
